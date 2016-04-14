@@ -1,5 +1,5 @@
-# jeanettehead.github.io
+ jeanettehead.github.io
 
 ## iamjea.net
 
-[Link](iamjea.net)
+[Link](http://iamjea.net)
