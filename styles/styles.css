@@ -14,7 +14,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #65721b;
+  color: #65721b;
 }
 
 #my-picture {
@@ -48,5 +48,9 @@ h3 {
 h2:hover {
   color: #d9d4e1;
   color: #563D7C;
-    color: #65721b;
+  color: #65721b;
+}
+
+body {
+  background-color: #F5F6EF;
 }
