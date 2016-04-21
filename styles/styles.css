@@ -54,3 +54,11 @@ h2:hover {
 body {
   background-color: #F5F6EF;
 }
+
+#contact-me i {
+    font-size: 1.5em;
+}
+
+a:hover {
+    text-decoration: none;
+}
