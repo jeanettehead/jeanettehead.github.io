@@ -19,6 +19,7 @@ nav a:hover {
 
 #myPicture {
   width: 100%;
+  box-shadow: 0 0 20px #46414D
 }
 
 #pageContainer {
@@ -46,8 +47,6 @@ h3 {
 }
 
 h2:hover {
-  color: #d9d4e1;
-  color: #563D7C;
   color: #65721b;
 }
 
