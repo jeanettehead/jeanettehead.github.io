@@ -17,11 +17,11 @@ nav a:hover {
   color: #65721b;
 }
 
-#my-picture {
+#myPicture {
   width: 100%;
 }
 
-#page-container {
+#pageContainer {
   padding-top: 50px;
   padding-bottom: 200px;
   color: #46414D;
@@ -55,7 +55,7 @@ body {
   background-color: #F5F6EF;
 }
 
-#contact-me i {
+#contactMe i {
     font-size: 1.5em;
 }
 
