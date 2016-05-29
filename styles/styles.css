@@ -97,12 +97,11 @@ a:hover {
 
 #contactMe{
     background-color: #98A54E;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 #contactMe h2 {
     color: #FFFFFF;
-    padding-bottom: 50px;
 }
 
 #contactMe .contact-link {
@@ -122,4 +121,9 @@ a:hover {
     background-color: #98A54E;
     padding-bottom: 20px;
     
+}
+
+.row {
+    padding-bottom: 15px;
+    padding-top: 5px;
 }
