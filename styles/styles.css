@@ -113,8 +113,14 @@ a:hover {
 #contactMe .contact-link a {
     height: 100%;
     display: block;
-    padding-top: 55px;
+    padding-top: 30px;
     background-color: #ffffff;
+}
+
+#contactMe .contact-link a i {
+    font-size: 50px;
+    padding-right: 5px;
+    display: block;
 }
 
 #footer {
