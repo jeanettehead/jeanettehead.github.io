@@ -37,7 +37,6 @@ nav a:hover {
 }
 
 #pageContainer {
-  padding-bottom: 200px;
   color: #46414D;
 }
 
@@ -65,7 +64,7 @@ h2:hover {
 
 body {
   background-color: #F5F6EF;
-}
+}/* Rectangle 3 Copy: */
 
 #contactMe i {
     font-size: 1.5em;
@@ -73,4 +72,54 @@ body {
 
 a:hover {
     text-decoration: none;
+}
+
+#interests li {
+    margin-top: 10px;
+}
+
+#speaking {
+    background-color: #212745;
+    color: #ffffff;
+}
+
+#speaking h2 {
+    color: #FFFFFF;
+}
+
+#speaking h3 {
+    color: #FFFFFF;
+}
+
+#speaking a {
+    color: #98A54E;
+}
+
+#contactMe{
+    background-color: #98A54E;
+    padding-bottom: 100px;
+}
+
+#contactMe h2 {
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+#contactMe .contact-link {
+    padding: 5px;
+    height: 150px;
+    text-align: center;
+}
+
+#contactMe .contact-link a {
+    height: 100%;
+    display: block;
+    padding-top: 55px;
+    background-color: #ffffff;
+}
+
+#footer {
+    background-color: #98A54E;
+    padding-bottom: 200px;
+    
 }
