@@ -97,7 +97,6 @@ a:hover {
 
 #contactMe{
     background-color: #98A54E;
-    padding-bottom: 60px;
 }
 
 #contactMe h2 {
@@ -123,11 +122,6 @@ a:hover {
     display: block;
 }
 
-#footer {
-    background-color: #98A54E;
-    padding-bottom: 20px;
-    
-}
 
 .row {
     padding-bottom: 15px;
