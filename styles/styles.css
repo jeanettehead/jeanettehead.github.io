@@ -8,8 +8,10 @@
 }
 
 #banner {
-    background: url('../img/header.png') no-repeat center center;
-    height: 30em;
+  background: url('../img/header.png') no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  height: 30em;
 }
 #banner .row {
   padding-bottom: 20px;
@@ -28,7 +30,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #563D7C;
+  color: #ffffff;
+  font-style: italic;
 }
 
 #myPicture {
@@ -67,63 +70,63 @@ body {
 }/* Rectangle 3 Copy: */
 
 #contactMe i {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #interests li {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #speaking {
-    background-color: #212745;
-    color: #ffffff;
+  background-color: #212745;
+  color: #ffffff;
 }
 
 #speaking h2 {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 #speaking h3 {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 #speaking a {
-    color: #98A54E;
+  color: #98A54E;
 }
 
 #contactMe{
-    background-color: #98A54E;
+  background-color: #98A54E;
 }
 
 #contactMe h2 {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 #contactMe .contact-link {
-    padding: 5px;
-    height: 150px;
-    text-align: center;
+  padding: 5px;
+  height: 150px;
+  text-align: center;
 }
 
 #contactMe .contact-link a {
-    height: 100%;
-    display: block;
-    padding-top: 30px;
-    background-color: #ffffff;
+  height: 100%;
+  display: block;
+  padding-top: 30px;
+  background-color: #ffffff;
 }
 
 #contactMe .contact-link a i {
-    font-size: 50px;
-    padding-right: 5px;
-    display: block;
+  font-size: 50px;
+  padding-right: 5px;
+  display: block;
 }
 
 
 .row {
-    padding-bottom: 15px;
-    padding-top: 5px;
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
