@@ -3,10 +3,6 @@
   color: #ffffff;
 }
 
-#header:hover {
-  color: #563D7C;
-}
-
 #banner {
   background: url('../img/header.png') no-repeat center center;
   background-size: cover;
