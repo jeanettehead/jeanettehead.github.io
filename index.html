@@ -1,175 +1,206 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <title>Jeanette Head</title>
-    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link href="styles/styles.css" rel="stylesheet"/>
-  </head>
-  <body>
-    <div id="pageContainer">
-      <div id="banner" src="img/header.png">
-        <div class="row">
-          <div class="col-xs-6">
-            <h1 id="header">Jeanette Head</h1>
-          </div>
-          <div class="col-xs-5 col-xs-offset-1">
-            <nav>
-              <a href="#aboutMe">About</a>
-              <a href="#speaking">Speaking</a>
-              <a href="#blog">Blog</a>
-              <a href="#contactMe">Contact</a>
-              <a href="resume/jeanette-head-resume-5-2016.pdf">Resume</a>
-            </nav>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Jeanette Head</title>
+  <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href="styles/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content page__section">
+      <h1 class="header__name">Jeanette Head</h1>
+      <nav>
+        <a href="#aboutMe">About</a>
+        <a href="#speaking">Speaking</a>
+        <a href="#blog">Blog</a>
+        <a href="#contactMe">Contact</a>
+        <a href="resume/jeanette-head-resume-5-2016.pdf">Resume</a>
+      </nav>
+    </div>
+    <div class="header__image"></div>
+  </header>
+  <main>
+    <section class="page__section">
+      <h2>About</h2>
+      <p>Hello, I’m Jeanette, a software developer in Colorado currently working on <a
+          href="https://www.pivotaltracker.com">Pivotal Tracker</a>. I have experience developing, maintaining and
+        deploying software across several platforms: desktop, mobile, and across the full stack of the web. In my
+        community, I give back by speaking at user groups and conferences, as well as sharing my knowledge and
+        experiences by blogging. I’ve also taught classes for <a href="https://www.girldevelopit.com/">Girl Develop
+          It</a> and I mentor for <a href="http://www.firstinspires.org/">FIRST Robotics</a>. This is a little out of
+        date
+        and I need to rewrite it!
+      </p>
+      <h3>Things that interest me</h3>
+      <ul class="interests">
+        <li>Web Application Architecture</li>
+        <li>Accessibility</li>
+        <li>Effective Test Driven Development</li>
+        <li>Robotics</li>
+        <li>Buffy the Vampire Slayer</li>
+        <li>Hockey</li>
+        <li>Snowboarding</li>
+        <li>Travel</li>
+        <li>Spanish Language</li>
+        <li>Learning New Things</li>
+      </ul>
+    </section>
+    <section class="page__section" id="speaking">
+      <h2>Speaking</h2>
+      <p>
+        I'm an enthusiastic speaker, and I especially love giving lightning talks. I've spoken at local events at at
+        various conferences.
+      </p>
+      <div>
+        <h3>Denver Startup Week 2019</h3>
+        <div><a
+            href="https://docs.google.com/presentation/d/1VrDc_7ruOECirGMLgteGh0NpywA8ePxTJJnfLinyeYc/edit?usp=sharing">
+            When your team’s mission is vague (you learn a lot about failure)
+          </a></div>
+
+        <h3>Winter Tech Forum 2018</h3>
+        <div>The difference that an accessible experience can make (lightning talk, not recorded)
+          <a href="https://github.com/jeanettehead/simple-a11y-demo">Demo</a>
+        </div>
+
+        <h3>Spring One Platform 2018 (co-presented with Hadrien Raffalli)</h3>
+        <div><a
+            href="https://springoneplatform.io/2018/sessions/escape-the-feature-factory-with-outcome-oriented-roadmaps">Escape
+            the Feature Factory with Outcome Oriented Roadmaps</a></div>
+
+        <h3>Winter Tech Forum 2018</h3>
+        <div>The difference that an accessible experience can make (lightning talk, not recorded)
+          <a href="https://github.com/jeanettehead/simple-a11y-demo">Demo</a>
+        </div>
+
+        <h3>Codemash 2015</h3>
+        <div>Deconstructing Single Page Applications</div>
+        <ul>
+          <li><a href="https://speakerdeck.com/jeanettehead17/deconstructing-single-page-applications">Check out the
+              slides</a></li>
+          <li>Also presented at Ann Arbor .NET Developers in October 2015</li>
+        </ul>
+        <h3>Southeast Michigan JavaScript</h3>
+        <ul>
+          <li>Intro to Emmet for faster HTML <a href="https://www.youtube.com/watch?v=gxhJBWmmMRc">YouTube</a></li>
+          <li>Ember Data Roller Coaster <a href="https://www.youtube.com/watch?v=M7HBaTjjsY8">YouTube</a></li>
+          <li>Drawing the Performance of your WebApp <a
+              href="https://speakerdeck.com/jeanettehead17/drawing-the-performance-of-your-web-app">Slides</a></li>
+        </ul>
+        <h3>Ann Arbor PyLadies</h3>
+        <ul>
+          <li>Intro to the Agile Development Process</li>
+          <li>How to Refactor</li>
+          <li>Math in Python - numpy and scipy</li>
+          <li>Simple, Functional Python</li>
+        </ul>
+
+        <h3>Michigan Celebration of Women in Computing 2015</h3>
+        <ul>
+          <li>Panelist: Software Teams in Industry</li>
+        </ul>
+
+        <h3>Girl Develop It Ann Arbor</h3>
+        <ul>
+          <li>Intro to Python (4 sessions)</li>
+        </ul>
+      </div>
+    </section>
+    <section class="page__section">
+      <h2>Side projects</h2>
+      <h3>
+        <a href="./a11y-escape/index.html">Accessibility Escape Room</a>
+      </h3>
+      <p>
+        Still a work in progress, this escape room will test and challenge your knowledge of accessible web
+        interactions.
+      </p>
+      <h3>Elm Boggle</h3>
+      <p>
+        I made a boggle game in <a href="http://elm-lang.org">Elm</a> as a learning experience. <a
+          href="./elm-boggle/game.html">Check it out!</a>
+        (Word validation breaks whenever the free limit of the third party word checking api is exceeded)
+      </p>
+      <h2>Blog posts</h2>
+      <h3>
+        <a href="https://www.pivotaltracker.com/blog/improving-accessibility-in-pivotal-tracker">Improving
+          accessibility
+          in Pivotal Tracker</a>
+      </h3>
+      <p>
+        You can find more blog posts by me on <a href=https://spin.atomicobject.com/author/jeanette-head/>Atomic
+          Spin</a> </p> <p>
+          Here are some of my favorites
+      </p>
+      <ul>
+        <li>
+          <h4>
+            <a href="https://spin.atomicobject.com/2016/04/05/single-page-app-components/">Architecting SPA
+              Applications
+              with Widget and Structural Components</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="https://spin.atomicobject.com/2016/01/12/why-reactjs-and-jsx/">Why You Should be Using JSX with
+              ReactJS</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="https://spin.atomicobject.com/2015/11/23/frontend-testing-asynchronous-data/">Best Practices for
+              Unit Testing Asynchronous Frontend Network Requests</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="https://spin.atomicobject.com/2015/09/01/optimize-web-app-performance/">How to Draw and Analyze
+              WebApp Performance</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="https://spin.atomicobject.com/2015/06/08/unconscious-bias-software/">How to Fight Unconscious
+              Bias
+              & Become a Better Ally</a>
+          </h4>
+        </li>
+      </ul>
+    </section>
+    <section class="page__section" id="contactMe">
+      <h2>Contact</h2>
+      <div class="links">
+        <div class="contactLink">
+          <a href="mailto:self@iamjea.net">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i> <span class="contactLabel">self@iamjea.net</span></a>
+        </div>
+        <div class="contactLink">
+          <a href="https://twitter.com/jeanettehead17">
+            <i class="fa fa-twitter" aria-hidden="true"></i> <span class="contactLabel">@jeanettehead17</span></a>
+        </div>
+        <div class="contactLink">
+          <a href="https://github.com/jeanettehead">
+            <i class="fa fa-github" aria-hidden="true"></i> <span class="contactLabel">jeanettehead</a></span>
         </div>
       </div>
-      <div class="row" id="aboutMe">
-        <div class="col-xs-8 col-xs-offset-2">
-          <h2>About</h2>
-          <p>Hello, I’m Jeanette, a software developer in Colorado currently working on <a href="https://www.pivotaltracker.com">Pivotal Tracker</a>. I have experience developing, maintaining and deploying software across several platforms: desktop, mobile, and across the full stack of the web. In my community, I give back by speaking at user groups and conferences, as well as sharing my knowledge and experiences by blogging. I’ve also taught classes for <a href="https://www.girldevelopit.com/">Girl Develop It</a> and I mentor for <a href="http://www.firstinspires.org/">FIRST Robotics</a>.
-          </p>
-          <div>
-            <h3>Things that interest me</h3>
-            <ul id ="interests" class="row">
-              <li class="col-xs-4">Robotics</li>
-              <li class="col-xs-4">Web Application Architecture</li>
-              <li class="col-xs-4">Accessibility</li>
-              <li class="col-xs-4">Effective TDD</li>
-              <li class="col-xs-4">Buffy the Vampire Slayer</li>
-              <li class="col-xs-4">Harry Potter</li>
-              <li class="col-xs-4">Doctor Who</li>
-              <li class="col-xs-4">Skateboarding</li>
-              <li class="col-xs-4">Snowboarding</li>
-              <li class="col-xs-4">Travel</li>
-              <li class="col-xs-4">Spanish Language</li>
-              <li class="col-xs-4">Learning New Things</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row" id="speaking">
-        <div class="col-xs-8 col-xs-offset-2">
-          <h2>Speaking</h2>
-          <p>
-            An enthusiastic new speaker, I've given several local and regional conference talks.
-          </p>
-          <hr>
-          <div>
-            <h3>Spring One Platform 2018 (co-presented with Hadrien Raffalli)</h3>
-            <div><a href="https://springoneplatform.io/2018/sessions/escape-the-feature-factory-with-outcome-oriented-roadmaps">Escape the Feature Factory with Outcome Oriented Roadmaps</a></div>
-            
-            <h3>Winter Tech Forum 2018</h3>
-            <div>The difference that an accessible experience can make (lightning talk, not recorded)
-              <a href="https://github.com/jeanettehead/simple-a11y-demo">Demo</a>
-            </div>
+    </section>
+  </main>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-            <h3>Codemash 2015</h3>
-            <div>Deconstructing Single Page Applications</div>
-            <ul>
-              <li><a href="https://speakerdeck.com/jeanettehead17/deconstructing-single-page-applications">Check out the slides</a></li>
-              <li>Also presented at Ann Arbor .NET Developers in October 2015</li>
-            </ul>
-              <h3>Southeast Michigan JavaScript</h3>
-            <ul>
-              <li>Intro to Emmet for faster HTML <a href="https://www.youtube.com/watch?v=gxhJBWmmMRc">YouTube</a></li>
-              <li>Ember Data Roller Coaster <a href="https://www.youtube.com/watch?v=M7HBaTjjsY8">YouTube</a></li>
-              <li>Drawing the Performance of your WebApp <a href="https://speakerdeck.com/jeanettehead17/drawing-the-performance-of-your-web-app">Slides</a></li>
-            </ul>
-              <h3>Ann Arbor PyLadies</h3>
-            <ul>
-              <li>Intro to the Agile Development Process</li>
-              <li>How to Refactor</li>
-              <li>Math in Python - numpy and scipy</li>
-              <li>Simple, Functional Python</li>
-            </ul>
+    ga('create', 'UA-78557930-1', 'auto');
+    ga('send', 'pageview');
 
-            <h3>Michigan Celebration of Women in Computing 2015</h3>
-            <ul>
-              <li>Panelist: Software Teams in Industry</li>
-            </ul>
+  </script>
+</body>
 
-            <h3>Girl Develop It Ann Arbor</h3>
-            <ul>
-              <li>Intro to Python (4 sessions)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-8 col-xs-offset-2" id="blog">
-          <h2>
-            <a href="./a11y-escape/index.html">Accessibility Escape Room</a>
-          </h2>
-          <p>
-            Still a work in progress, this escape room will test and challenge your knowledge of accessible web interactions.
-          </p>
-          <h2>Elm Boggle</h2>
-          <p>
-              I recently made a boggle game in <a href="http://elm-lang.org">Elm</a> as a learning experince. <a href="./elm-boggle/game.html">Check it out!</a>
-              (Broken because there used to be an online dictionary service hooked up to this that I no longer pay for)
-          </p>
-          <h2>Blog</h2>
-          <h3>
-            <a href="https://www.pivotaltracker.com/blog/improving-accessibility-in-pivotal-tracker">Improving accessibility in Pivotal Tracker</a>
-          </h3>
-          <p>
-            You can find more blog posts by me on <a href=https://spin.atomicobject.com/author/jeanette-head/>Atomic Spin</a>
-          </p>
-
-          <p>
-            Here are some of my favorites
-          </p>
-          <ul>
-              <li><h4>
-                  <a href="https://spin.atomicobject.com/2016/04/05/single-page-app-components/">Architecting SPA Applications with Widget and Structural Components</a>
-              </h4></li>
-              <li><h4>
-                  <a href="https://spin.atomicobject.com/2016/01/12/why-reactjs-and-jsx/">Why You Should be Using JSX with ReactJS</a>
-              </h4></li>
-              <li><h4>
-                  <a href="https://spin.atomicobject.com/2015/11/23/frontend-testing-asynchronous-data/">Best Practices for Unit Testing Asynchronous Frontend Network Requests</a>
-              </h4></li>
-              <li><h4>
-                  <a href="https://spin.atomicobject.com/2015/09/01/optimize-web-app-performance/">How to Draw and Analyze WebApp Performance</a>
-              </h4></li>
-              <li><h4>
-                  <a href="https://spin.atomicobject.com/2015/06/08/unconscious-bias-software/">How to Fight Unconscious Bias & Become a Better Ally</a>
-              </h4></li>
-              <li><h4>
-                  <a href="https://spin.atomicobject.com/2014/01/25/render-nested-views-backbonejs/">Rendering Nested Views in BackboneJS</a>
-              </h4></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row" id="contactMe">
-        <div class="col-xs-8 col-xs-offset-2" >
-          <h2>Contact</h2>
-          <div class="row">
-            <div class="col-md-4 contact-link">
-                <a href="mailto:self@iamjea.net"><i class="fa fa-envelope-o" aria-hidden="true"></i> self@iamjea.net</a>
-            </div>
-            <div class="col-md-4 contact-link">
-                <a href="https://twitter.com/jeanettehead17"><i class="fa fa-twitter" aria-hidden="true"></i>
-                    @jeanettehead17</a>
-            </div>
-            <div class="col-md-4 contact-link">
-                <a href="https://github.com/jeanettehead"> <i class="fa fa-github" aria-hidden="true"></i> jeanettehead</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    <script>
-     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-     ga('create', 'UA-78557930-1', 'auto');
-     ga('send', 'pageview');
-
-    </script>
-  </body>
 </html>

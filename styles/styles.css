@@ -1,15 +1,53 @@
-#header {
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #46414D;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #563D7C;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+ul {
+  margin: none;
+}
+
+.page__section {
+  padding: 1em 4em;
+}
+
+.header {
+  background-color: #212745;
+}
+
+.header__name {
   text-align: center;
   color: #ffffff;
 }
 
-#banner {
+.header__image {
   background: url('../img/header.png') no-repeat center center;
   background-size: cover;
   background-position: center center;
   height: 30em;
 }
-#banner .row {
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner .row {
   padding-bottom: 20px;
 }
 
@@ -34,10 +72,6 @@ nav a:hover {
   box-shadow: 0 0 20px #46414D
 }
 
-#pageContainer {
-  color: #46414D;
-}
-
 h1 {
   font-size: 50px;
   font-family: Courgette;
@@ -48,7 +82,8 @@ h1 {
 h2 {
   font-family: Courgette;
   font-size: 36px;
-  color: #98A54E;
+  /* color: #98A54E; */
+  color: #747d3c;
   cursor: default;
 }
 
@@ -56,23 +91,17 @@ h3 {
   color: #563D7C;
 }
 
-h2:hover {
-  color: #65721b;
-}
-
 body {
   background-color: #F5F6EF;
-}/* Rectangle 3 Copy: */
+}
+
+/* Rectangle 3 Copy: */
 
 #contactMe i {
   font-size: 1.5em;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
-#interests li {
+.interests li {
   margin-top: 10px;
 }
 
@@ -90,38 +119,51 @@ a:hover {
 }
 
 #speaking a {
-  color: #98A54E;
+  color: #747d3c;
 }
 
-#contactMe{
-  background-color: #98A54E;
+#contactMe {
+  background-color: #747d3c;
 }
 
 #contactMe h2 {
   color: #FFFFFF;
 }
 
-#contactMe .contact-link {
+#contactMe .links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#contactMe .contactLink {
   padding: 5px;
-  height: 150px;
   text-align: center;
 }
 
-#contactMe .contact-link a {
-  height: 100%;
-  display: block;
-  padding-top: 30px;
-  background-color: #ffffff;
+#contactMe a {
+  color: #ffffff;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 80px auto;
+
 }
 
-#contactMe .contact-link a i {
+#contactMe a:hover,
+#contactMe a:focus {
+  text-decoration: none;
+}
+
+#contactMe .contactLabel {
+  margin-right: 4px;
+}
+
+#contactMe a:hover .contactLabel,
+#contactMe a:focus .contactLabel {
+  text-decoration: underline;
+}
+
+#contactMe .contactLink a i {
   font-size: 50px;
   padding-right: 5px;
-  display: block;
-}
-
-
-.row {
-  padding-bottom: 15px;
-  padding-top: 5px;
 }
