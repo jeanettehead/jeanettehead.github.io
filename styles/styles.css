@@ -132,8 +132,6 @@ body {
 
 #contactMe .links {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 #contactMe .contactLink {
