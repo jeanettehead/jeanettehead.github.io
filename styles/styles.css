@@ -83,7 +83,7 @@ h2 {
   font-family: Courgette;
   font-size: 36px;
   /* color: #98A54E; */
-  color: #747d3c;
+  color: #5f672c;
   cursor: default;
 }
 
@@ -119,11 +119,11 @@ body {
 }
 
 #speaking a {
-  color: #747d3c;
+  color: #a9af86;
 }
 
 #contactMe {
-  background-color: #747d3c;
+  background-color: #5f672c;
 }
 
 #contactMe h2 {
