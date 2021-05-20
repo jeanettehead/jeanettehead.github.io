@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Accessible Example</title>
+</head>
+
+<body>
+  <header role="banner">
+    <h1 class="header">Totally Legit Website</h1>
+  </header>
+  <nav class="nav" role="navigation">
+    <a href="https://google.com" class="nav__link">Home</a>
+    <a href="https://google.com" class="nav__link">Credit Cards</a>
+    <a href="https://google.com" class="nav__link">Security Questions</a>
+    <a href="https://google.com" class="nav__link">Passwords</a>
+    <form role="search">
+      <input type="text" placeholder="search" aria-label="search">
+    </form>
+  </nav>
+
+
+  <main role="main" class="content">
+    <form class="form">
+      <h2 class="title">You and Your SSN</h2>
+      <label class="label" for="first">first name</label>
+      <input id="first" type="text">
+      <label class="label" for="last">last name</label>
+      <input type="text" id="last">
+      <label class="label" for="ssn">SSN</label>
+      <input type="text" id="ssn">
+      <button type="submit" class="button">submit form</button>
+      <button class="button">clear form</button>
+    </form>
+
+    <aside role="complementary" class="image">
+      <div class="image__caption">TRUST ME WITH YOUR INFORMATION</div>
+      <img alt="Professor Umbridge" class="image__image" src="./img__1a2b3c.jpg">
+    </aside>
+  </main>
+
+  <footer	role="contentinfo">
+    © Totally Legit Co
+  </footer>
+</body>
+
+</html>

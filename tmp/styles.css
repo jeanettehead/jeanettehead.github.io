@@ -1,0 +1,103 @@
+.header {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 15px 0;
+
+}
+
+.content {
+  display: flex;
+}
+
+.nav {
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+}
+
+.nav__link {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-right: 100px;
+}
+
+.form input {
+  margin-bottom: 4px;
+}
+
+.button {
+  background-color: #ddd;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  margin-top: 10px;
+  width: 100px;
+  min-width: 100px;
+  display: inline-block;
+  
+}
+
+.button:hover {
+  background-color: #bbb;
+}
+
+.image {
+  height: 400px;
+  width: 400px;
+  margin-top: 15px;
+}
+
+.image__image {
+  width: 100%;
+}
+
+.image__caption {
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 4px;
+
+}
+
+.unaccessible .nav {
+  flex-direction: row-reverse;
+}
+
+.unaccessible input:focus {
+  outline: none;
+}
+
+.unaccessible__form {
+  display: flex;
+  flex-direction: row;
+}
+
+.unaccessible__labels {
+  width: 30%;
+}
+.unaccessible .label {
+  margin-bottom: 10px;
+}
+.unaccessible__inputs {
+  width: 50%;
+}
